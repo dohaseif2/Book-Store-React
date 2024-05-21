@@ -1,0 +1,48 @@
+/* Home.css */
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('b1.jfif') no-repeat center center fixed; 
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .home-content {
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.6); 
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .home-title {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .home-message {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .home-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: rgb(219, 172, 110); /* Bootstrap primary color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: black;
+  }
+  
+  .home-button:hover {
+    background-color: rgb(194, 153, 98);
+    border-color: rgb(194, 153, 98);
+  }
+  

@@ -1,0 +1,53 @@
+/* books.css */
+
+.book-container {
+    height: 100vh;
+    background: url('b1.jfif') no-repeat center center fixed; /* You can add a background image here */
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 2em;
+    color: rgb(252, 247, 242);
+
+  }
+  .custom-button {
+    background-color: rgb(219, 172, 110);
+    border-color: rgb(219, 172, 110);
+    text-decoration: none;
+  }
+  
+  .custom-button:hover {
+    background-color: rgb(194, 153, 98);
+    border-color: rgb(194, 153, 98);
+  }
+  
+  
+  .table thead th {
+    background-color:  rgb(212, 181, 139);
+    color: white;
+  }
+  .tbody{
+    background: rgba(0, 0, 0, 0.6); 
+  }
+  
+  .action-link {
+    margin-right: 10px;
+    color: rgb(219, 172, 110);
+    font-size: 22px; 
+
+  }
+  
+  .action-link:hover {
+    color: rgb(194, 153, 98);
+  }
+  

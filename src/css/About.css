@@ -1,0 +1,28 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('b1.jfif') no-repeat center center fixed; /* You can add a background image here */
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  .about-content {
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .about-title {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .about-message {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  

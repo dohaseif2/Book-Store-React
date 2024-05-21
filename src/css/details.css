@@ -1,0 +1,44 @@
+
+.book-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('b1.jfif') no-repeat center center fixed; 
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+  }
+  
+  .book-details-content {
+    background-color: #212529;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6); 
+  
+  }
+  
+  .book-details-content h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+  }
+  
+  .book-details-content p {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  
+  .book-details-content .btn {
+    background-color: rgb(219, 172, 110);
+    border: none;
+    margin-top: 20px;
+  }
+  
+  .book-details-content .btn:hover {
+    background-color: rgb(194, 153, 98);
+  }
+  

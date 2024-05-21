@@ -1,0 +1,56 @@
+/* formData.css */
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('b1.jfif') no-repeat center center fixed; 
+    background-size: cover;
+
+  }
+  
+  .form-content {
+    background: rgba(0, 0, 0, 0.6); 
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .form-content h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  .form-content .form-label {
+    font-weight: bold;
+    color: #f2f7fc;
+  }
+  
+  .form-content .form-control {
+    border-radius: 5px;
+  }
+  
+  .form-content .custom-button {
+    width: 100%;
+    background-color: rgb(219, 172, 110);
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
+  
+  .form-content .custom-button:hover {
+    background-color: rgb(194, 153, 98);
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
